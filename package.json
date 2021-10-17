@@ -1,0 +1,25 @@
+{
+  "name": "stock-scripts",
+  "description": "",
+  "version": "1.0.0",
+  "main": "v80Screener.js",
+  "scripts": {
+    "start": "node v80Screener.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayhawk24/stock-scripts.git"
+  },
+  "author": "jayhawk24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayhawk24/stock-scripts/issues"
+  },
+  "homepage": "https://github.com/jayhawk24/stock-scripts#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "node-html-parser": "^5.0.0"
+  }
+}

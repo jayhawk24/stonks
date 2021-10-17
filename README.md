@@ -1,2 +1,1 @@
-# stonks
-CLI tools for my custom strategies.
+# stock-scripts

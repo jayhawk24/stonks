@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/v80", async (req, res) => {
-    const data = await v80Screener(3);
+    const data = await v80Screener(10);
     const results = data.flat();
     res.json(results);
 });
